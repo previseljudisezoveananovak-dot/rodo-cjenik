@@ -137,3 +137,21 @@ footer strong{color:var(--ink)}
   }
   .anchor-value,.current-value{font-size:12px}
 }
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#292a29;
+    --paper:#333433;
+    --ink:#f2efe9;
+    --muted:#b3aea5;
+    --line:#4a4b49;
+    --accent:#c5ad83;
+  }
+
+  .category-nav{
+    background:rgba(41,42,41,.94);
+  }
+
+  .items strong.unset{
+    color:#8f908e;
+  }
+}
