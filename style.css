@@ -284,7 +284,7 @@ footer strong{color:var(--ink)}
 @media (prefers-color-scheme:dark){
   :root{
     --bg:#171716;
-    --paper:#302719;
+    --paper:#3a3b39;
     --ink:#f2efe9;
     --muted:#b3aea5;
     --line:#4a4b49;
